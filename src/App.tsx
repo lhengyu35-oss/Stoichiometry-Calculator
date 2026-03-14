@@ -400,7 +400,8 @@ export default function App() {
           <div className="mt-6 flex justify-end">
             <button 
               onClick={handleBalance}
-              className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-xl shadow-sm transition-colors flex items-center"
+              className="w-full md:w-auto px-6 py-3 md:py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-xl shadow-sm transition-colors flex items-center justify-center"
+              style={{ color: '#ffffff', backgroundColor: '#4f46e5' }}
             >
               <Calculator className="w-4 h-4 mr-2" />
               Balance Equation
