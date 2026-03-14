@@ -1,0 +1,5 @@
+{
+  "name": "Stoichiometry Calculator",
+  "description": "An app to calculate the required mass of precursors for a chemical reaction based on target product mass and excess ratios.",
+  "requestFramePermissions": []
+}
